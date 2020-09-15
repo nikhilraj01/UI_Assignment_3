@@ -4,8 +4,8 @@ body{
   background-color: black;
 }
 
-.newsWindow{
-  width: 85%;
+.news-window{
+  width: 85vw;
   height: auto;
   background-color: #f6f6ef;
   margin: auto;
@@ -68,4 +68,8 @@ button{
 
 .loading{
   text-align: center;
+}
+
+.search{
+  width: 60vw;
 }

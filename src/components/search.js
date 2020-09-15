@@ -1,8 +1,7 @@
 import React from "react"
 
 
-export function Search()
-{
+const Search = ({onClick}) => {
     return (
         <div>
            <input
@@ -10,6 +9,7 @@ export function Search()
            type="text"
            name="searchText"
            placeholder="Search stories by title, url or author"
+           onChange={e => onClick(e)}
            />
         </div>
     )

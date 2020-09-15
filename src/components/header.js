@@ -4,14 +4,13 @@ import Search from "./search.js"
 import Settings from "./settings.js"
 
 
-function header()
-{
+const header=()=>{
     return (
         <div>
             <div className="header">
                 <img src={Logo} alt="Search Hacker News"/>
                 <p>Search <span> Hacker News</span></p>
-                <Search />
+                <Search/>
                 <Settings />
             </div>
         </div>
