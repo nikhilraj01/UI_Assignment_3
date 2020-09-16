@@ -29,7 +29,6 @@ const NewsWindow = () =>{
                 <img src={Logo} alt="Search Hacker News"/>
                 <p>Search <span> Hacker News</span></p>
                 <Search onClick={onChangeFilterText}/>
-                
             </div>
 
         <div>
